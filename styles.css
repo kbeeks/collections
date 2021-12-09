@@ -1,0 +1,175 @@
+/* COLLECTION */
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family: 'M+PLUS+1', sans-serif;
+/*  display: grid;
+  grid-template-columns: 25vw 1fr; */
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+
+h1 {
+  font-family: 'M+PLUS+1', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color:rgb(0, 0, 0);
+  line-height: 40px;
+  margin-bottom: -4px;
+}
+
+p {
+  font-family: 'M+PLUS+1', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'M+PLUS+1', sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h3 {
+  font-family: 'M+PLUS+1', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 0px;
+  margin-top: 2.5em;
+}
+
+.bg-color1 {
+  background-color: rgb(171, 238, 233);
+}
+
+.bg-color2 {
+  background-color: rgb(238, 171, 219);
+}
+
+.bg-color3 {
+  background-color: rgb(232, 238, 171);
+}
+
+/* NAVIGATION
+----------------------------------------------- */
+ul {
+  list-style-type: none;
+  font-family: 'M+PLUS+1', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  padding-right: 12px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+  padding-right: 30px;
+}
+
+li:last-child {
+  grid-column: 1 / -1;
+  text-align: right;
+}
+
+li a {
+  background-image: url(images/underline.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 6px;
+}
+
+
+.main-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 53em;
+  margin: 5em auto;
+  padding-top: -1em;
+}
+
+.fixed {
+  position: absolute;
+  top: 0px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+
+
+/* BILL MURRAY 
+----------------------------------------------- */
+.bill-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 37.5em;
+  margin: 5em auto;
+  padding-top: 3em;
+}
+
+.fixed2 {
+  position: absolute;
+  top: 0px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* THE KIDS 
+----------------------------------------------- */
+.kids-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 25em;
+  margin: 5em auto;
+  padding-top: 8em;
+}
+
+.fixed3 {
+  position: absolute;
+  top: 0px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  background-color: #555;
+  color: white;
+}
